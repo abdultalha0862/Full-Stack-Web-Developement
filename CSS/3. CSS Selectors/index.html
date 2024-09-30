@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS Selector </title>
+</head>
+<style>
+    div{
+        color: sandybrown;
+    }
+    /* Class Selector */
+    .abc{
+        color: blue;
+    }
+    /* ID Selector */
+    #blue{
+        color: rgb(160, 70, 73);
+    }
+
+    /* Child Selector */
+    div > p{
+        color: green;
+    }
+
+    /* Descendant Selector */
+    div p{
+        color: red;
+    }
+
+    /* Universal Selector */
+    *{
+        margin: 0px;
+    }
+
+    /* Pseudo Selector */
+    a:visited{
+        color: yellow;
+    }
+    a:hover{
+        color: pink;
+
+    }
+    /* Group Selector */
+    
+
+
+</style>
+<body>
+    <h1> This website is about how to use CSS Selectors</h1>
+    <div class="abc">
+        <p> This is the paragraph that is placed in the div1 and class "abc" Block element</p>
+    </div>
+
+    <div id="blue">
+        <article>
+            <p> This is the paragraph which is placed in the second div block</p>
+
+        </article>
+    </div>
+
+    <span>
+        This is a span element
+    </span>
+    <article>   
+        <p> This is the paragraph which is placed in the article block</p>
+    </article>
+
+    <div>
+        <a href="https://www.google.com"> This is the link to google</a>
+        <a href="https://www.facebook.com"> This is the link to facebook</a>
+    </div>
+</body>
+</html>
